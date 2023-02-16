@@ -3,10 +3,10 @@ variable "org_id" {
     description = "(optional) describe your variable"
 }
 
-variable "project_owner_id" {
-    type = string
-    description = "(optional) describe your variable"
-}
+# variable "project_owner_id" {
+#     type = string
+#     description = "(optional) describe your variable"
+# }
 
 variable "project_name" {
     type = string
