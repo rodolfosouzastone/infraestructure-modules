@@ -10,9 +10,3 @@ resource "mongodbatlas_project" "pjt" {
   is_realtime_performance_panel_enabled            = false
   is_schema_advisor_enabled                        = false
 }
-
-# resource "mongodbatlas_project_api_key" "pjtapikey" {
-#   description   = var.api_key_name
-#   project_id        = mongodbatlas_project.pjt.id
-#   role_names = ["GROUP_OWNER"]
-# }
