@@ -8,8 +8,10 @@ include "root" {
 }
 
 inputs = {
+  name = "RODNETPJ"
   org_id = "639b1a7b62ddee061d2b39d5"
-  project_name = "rodnet-project-01"
+#  organization_id = "639b1a7b62ddee061d2b39d5"
+#  project_name = "rodnet-project-01"
 }
 
 
