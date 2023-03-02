@@ -1,6 +1,6 @@
 terraform {
   # Deploy version v0.0.3 in stage
-  source = "git::git@github.com:rodolfosouzastone/mongoatlas.git//mongo-atlas//projects"
+  source = "git::git@github.com:rodolfosouzastone/mongoatlas.git//modules//mongo-atlas/projects"
 }
 
 # Indicate what region to deploy the resources into
